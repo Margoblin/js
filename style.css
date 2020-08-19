@@ -1,0 +1,251 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    padding: 20px 0 20px 180px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #f17670;
+    position: relative;
+}
+
+.title {
+    color: #faebd7;
+    font-family: fantasy;
+    font-size: 45px;
+    text-shadow:
+        -0 -2px 2px #7F3341,
+        0 -2px 2px #7F3341,
+        -0 2px 2px #7F3341,
+        0 2px 2px #7F3341,
+        -2px -0 2px #7F3341,
+        2px -0 2px #7F3341,
+        -2px 0 2px #7F3341,
+        2px 0 2px #7F3341,
+        -1px -2px 2px #7F3341,
+        1px -2px 2px #7F3341,
+        -1px 2px 2px #7F3341,
+        1px 2px 2px #7F3341,
+        -2px -1px 2px #7F3341,
+        2px -1px 2px #7F3341,
+        -2px 1px 2px #7F3341,
+        2px 1px 2px #7F3341,
+        -2px -2px 2px #7F3341,
+        2px -2px 2px #7F3341,
+        -2px 2px 2px #7F3341,
+        2px 2px 2px #7F3341,
+        -2px -2px 2px #7F3341,
+        2px -2px 2px #7F3341,
+        -2px 2px 2px #7F3341,
+        2px 2px 2px #7F3341;
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    left: 340px;
+}
+
+.menu-list-item {
+    padding: 0 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: azure;
+}
+
+.menu-list-item:hover {
+    color: cadetblue;
+}
+
+.menu-list-item:active {
+    color: azure;
+}
+
+.basket {
+    background-color: transparent;
+    border: none;
+}
+
+.basket:focus {
+    outline: none;
+}
+
+.main {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.heading {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    font-size: 36px;
+    color: #34348f;
+    margin: 0 0 30px 0;
+}
+
+.product-block {
+    width: 200px;
+    background-color: beige;
+    justify-content: center;
+    border: 2px solid #5e1a3a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.main-img {
+    width: 190px;
+    height: 190px;
+    border: 1px solid #5e1a3a;
+}
+
+.prod-img {
+    width: 55px;
+    height: 55px;
+    margin: 3px;
+    border: 1px solid #5e1a3a;
+}
+
+.product-name {
+    font-size: 20px;
+    font-family: monospace;
+    color: #333;
+    display: block;
+    width: 100%;
+}
+
+.product-price {
+    font-family: monospace;
+}
+
+.add-button {
+    outline: none;
+    border: 1px solid #c792d4;
+    border-radius: 3px;
+    background-color: #e79b9b;
+    color: #1c3049;
+    font-family: monospace;
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.add-button:hover {
+    background-color: #d98b8b;
+    color: #111;
+}
+
+.add-button:active {
+    background-color: #e79b9b;
+    color: #1c3049;
+}
+
+.basket-block-none {
+    display: none;
+}
+
+.basket {
+    cursor: pointer;
+}
+
+.basket-block {
+    display: block;
+    min-height: 70px;
+    background-color: aliceblue;
+    width: 300px;
+    position: absolute;
+    top: 67px;
+    right: 130px;
+    border: 1px solid #008c70;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.basket-list {
+    text-align: center;
+    padding: 20px;
+}
+
+.basket-text {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.basket-product-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 40%;
+    margin: 0 20px 0 0;
+}
+
+.basket-product {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    align-items: center;
+}
+
+.basket-img-block {
+    margin: 0 10px 0 0;
+}
+
+.basket-img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+.mini-button {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    margin: 33px 3px 0 0;
+    width: 21px;
+    height: 23px;
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+.mini-button:hover {
+    background-color: beige;
+}
+
+.sum-block {
+    padding: 20px 0 0 0;
+}
+
+.clear-button {
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: monospace;
+    font-size: 15px;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin: 15px 0 0 0;
+}
+
+.clear-button:hover {
+    background-color: beige;
+}
+
+footer {
+    min-height: 200px;
+    background-color: #a76969;
+}
